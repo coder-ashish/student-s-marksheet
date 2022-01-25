@@ -3,10 +3,10 @@
 #include<stdlib.h>
 #include<string.h>
 struct student {
-    char firstName[50];
+    char firstName[5000];
     int roll;
     float marks;
-} s[5];
+} s[50];
 int 
 main()
 {
